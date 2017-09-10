@@ -1,0 +1,137 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+}
+.bloque h1{
+	text-align: center;
+	line-height: 600px;
+	color: #FFF;
+	font-size: 5em;
+}
+@media only screen and (max-width : 768px) {
+  .bloque h1{
+    font-size: 3.3em;
+  }
+ } 
+.bloque .uno h1{
+	color: #00E800;
+	-webkit-text-stroke: 3px #FFF;
+	font-family: "Montserrat-Bold";
+}
+.bloque .dos h1{
+	color: #FF8000;
+	-webkit-text-stroke: 3px #FFF;
+	font-family: "Montserrat-Bold";
+}
+.bloque .tres h1{
+	color: #FF0000;
+	-webkit-text-stroke: 3px #FFF;
+	font-family: "Montserrat-Bold";
+}
+.bloque .cuatro h1{
+	color: #400080;
+	-webkit-text-stroke: 3px #FFF;
+	font-family: "Montserrat-Bold";
+}
+.cont0 h1{
+	text-align: center;
+	color: #FFF;
+	font-size: 3em;
+	line-height: 50px;
+	font-family: "Montserrat-Bold";
+}
+.cont0 h2{
+	text-align: center;
+	color: #FFF;
+	font-size: 2.1em;
+	font-family: "Montserrat-Bold";
+}
+.cont0{
+	position: absolute;
+	margin: auto;
+	top: 200px;
+	width: 82%;
+	margin: 0px 7%;
+	padding: 30px 10px;
+	height: auto;
+	background-color: rgba(25,75,150, .8);
+}
+.bloque p{
+	margin: 30px;
+	color: #4C4C4C;
+	text-align: justify;
+}
+.bloque h3{
+	margin: 30px;
+	color: #4C4C4C;
+}
+.bloque.paralax{
+	height: 600px;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+	background-attachment: fixed;
+}
+.paralax.img0{
+	background-image: url("../img/img0.jpg");
+	
+}
+.paralax.img1{
+	background-image: url("../img/img1.jpg");
+	
+}
+.paralax.img2{
+	background-image: url("../img/img2.jpg");
+	
+}
+.paralax.img3{
+	background-image: url("../img/img3.jpg");
+	
+}
+.paralax.img4{
+	background-image: url("../img/img4.jpg");
+	
+}
+footer{
+	
+	width: 100%;
+	bottom: 0px;
+	float: left;
+	background-color: #060077;
+	height: 200px;
+}
+.pie p{
+	text-align: center;
+	color: #FFF;
+	font-size: 1.5em;
+	font-family: "Montserrat-Medium";
+}
+.pie{
+	line-height: 10px;
+	
+}
+
+.pie .txtGrande{
+	font-size: 2.5em;
+}
+
+@media only screen and (max-width : 768px) {
+	footer{
+		height: 150px;
+		font-size: .5em;
+	}
+	.pie{
+		margin-top: 30px;
+	}
+	.pie p{
+	line-height: 20px;
+	margin: 0px;
+	padding: 0px 20px;
+}
+	.txtGrande{
+		font-size: .8em;
+	}
+}
